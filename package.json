@@ -1,10 +1,10 @@
 {
-  "name": "regen-fun",
+  "name": "regen-fund",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "firebase-tools": "^11.11.0"
   }
 }
