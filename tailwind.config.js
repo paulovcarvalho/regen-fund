@@ -5,7 +5,19 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+
+            fontFamily: {
+              Cormorant: "'Cormorant Garamond', serif",
+              Montserrat: "'Montserrat', sans-serif",
+            },
+            colors: {
+              'regen-blue': '#0E5469',
+              'regen-seablue': '#265F6F',
+              'regen-sealighblue' : '#476677',
+            },
+
+    },
+    plugins: [],
+  }
 }
