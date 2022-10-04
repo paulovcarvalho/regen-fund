@@ -15,6 +15,7 @@ module.exports = {
               'regen-blue': '#0E5469',
               'regen-seablue': '#265F6F',
               'regen-sealighblue' : '#476677',
+              'regen-lighblue': '#21B3D5',
             },
 
     },
