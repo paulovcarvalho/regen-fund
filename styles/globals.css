@@ -10,6 +10,9 @@
   .hoverAnimation {
       @apply  hover:bg-regen-seablue hover:rounded-full transition duration-200 ease-out;
   }
+  .hoverMenuAnimation {
+    @apply  hover:bg-gray-400 hover:rounded-full transition duration-200 ease-out;
+}
 }
 
 
