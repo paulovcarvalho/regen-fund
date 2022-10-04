@@ -1,6 +1,16 @@
 {
   "/_app": "pages/_app.js",
+  "/aboutUs": "pages/aboutUs.html",
+  "/api/hello": "pages/api/hello.js",
+  "/artistsCollective": "pages/artistsCollective.html",
+  "/auth/login": "pages/auth/login.html",
+  "/auth/signup": "pages/auth/signup.html",
+  "/dashboard": "pages/dashboard.html",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/regenerativeProjects": "pages/regenerativeProjects.html",
+  "/invesdedIn": "pages/invesdedIn.html",
+  "/usr/userpage": "pages/usr/userpage.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
