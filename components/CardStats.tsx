@@ -15,10 +15,10 @@ export default function CardStats({
         <div className="flex-auto p-4">
           <div className="flex flex-nowrap">
             <div className="relative w-full pr-4 max-w-full flex-grow flex-1">
-              <h5 className="text-blueGray-400 uppercase font-bold text-xs">
+              <h5 className="uppercase text-regen-lighblue font-bold text-xs">
                 {statSubtitle}
               </h5>
-              <span className="font-semibold text-2xl text-blueGray-700">
+              <span className="font-semibold text-2xl font-Montserrat text-regen-blue">
                 {statTitle}
               </span>
             </div>
@@ -37,13 +37,13 @@ export default function CardStats({
               ></i>{" "}
               {statPercent}%
             </span>
-            <span className="whitespace-nowrap">{statDescripiron}</span>
+            <span className="whitespace-nowrap font-Montserrat text-regen-blue">{statDescripiron}</span>
           </p>
         </div>
       </div>
     </>
   );
-}
+} 
 
 CardStats.defaultProps = {
   statSubtitle: "Reciprocity Index",
