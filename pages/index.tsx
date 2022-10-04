@@ -2,7 +2,6 @@ import Head from 'next/head'
 
 
 import MainSection from '../components/MainSection'
-import styles from '../styles/Home.module.css'
 import { 
   getAuth,
   onAuthStateChanged, 
