@@ -12,9 +12,12 @@
   }
   .hoverMenuAnimation {
     @apply  hover:bg-gray-400 hover:rounded-full transition duration-200 ease-out;
-}
-}
+  }
 
+  .buttonType {
+    @apply  bg-regen-blue text-white align-middle font-Montserrat font-light rounded-full hoverAnimation w-[100px] h-[30px];
+  }
+}
 
 html,
 body {

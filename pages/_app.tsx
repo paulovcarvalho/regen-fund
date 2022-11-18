@@ -5,7 +5,8 @@ import { AuthContextProvider } from '../context/AuthContext'
 import { useRouter } from 'next/router'
 import ProtectedRoute from '../components/ProtectedRoute'
 
-const noAuthRequired = ['/', '/auth/login', '/auth/signup']
+// defines the pages that do not requiere a user to be login
+const noAuthRequired = ['/', '/auth/login', '/auth/signup','/invesdedIn','/regenerativeProjects','/artistsCollective','/aboutUs']
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()

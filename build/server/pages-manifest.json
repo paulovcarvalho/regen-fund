@@ -2,5 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/usr/userProfile": "pages/usr/userProfile.js",
+  "/usr/userProject": "pages/usr/userProject.js",
+  "/usr/userTeam": "pages/usr/userTeam.js",
+  "/usr/userCommunity": "pages/usr/userCommunity.js",
+  "/auth/login": "pages/auth/login.js",
+  "/usr/userLCI": "pages/usr/userLCI.js"
 }
