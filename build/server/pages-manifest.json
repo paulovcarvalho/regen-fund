@@ -1,11 +1,21 @@
 {
   "/_app": "pages/_app.js",
+  "/Project/ProjectPublic": "pages/Project/ProjectPublic.html",
+  "/aboutUs": "pages/aboutUs.html",
+  "/api/hello": "pages/api/hello.js",
+  "/artistsCollective": "pages/artistsCollective.html",
+  "/auth/login": "pages/auth/login.html",
+  "/auth/signup": "pages/auth/signup.html",
+  "/dashboard": "pages/dashboard.html",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/regenerativeProjects": "pages/regenerativeProjects.html",
+  "/invesdedIn": "pages/invesdedIn.html",
+  "/usr/userCommunity": "pages/usr/userCommunity.html",
+  "/usr/userLCI": "pages/usr/userLCI.html",
+  "/usr/userProfile": "pages/usr/userProfile.html",
+  "/usr/userProject": "pages/usr/userProject.html",
+  "/usr/userTeam": "pages/usr/userTeam.html",
   "/_document": "pages/_document.js",
-  "/usr/userProfile": "pages/usr/userProfile.js",
-  "/usr/userProject": "pages/usr/userProject.js",
-  "/usr/userTeam": "pages/usr/userTeam.js",
-  "/usr/userCommunity": "pages/usr/userCommunity.js",
-  "/auth/login": "pages/auth/login.js",
-  "/usr/userLCI": "pages/usr/userLCI.js"
+  "/404": "pages/404.html"
 }

@@ -23,9 +23,10 @@ export default function Dashboard() {
   return (
     <div className='flex flex-row adjust-top'>
                 <div className="relative">
-                        <div className="flex w-scree p-8 flex-wrap content-center items-center justify-center min-h-screen-30 overflow-scroll">
+                        <div className="flex w-scree p-8 flex-wrap content-center items-center justify-center min-h-screen-30 overflow-scroll"
+                        >
                               { indicators.map((indicator) =>(
-                                    <div className=" xl:mb-0 px-2">
+                                    <div key={indicator.id} className=" xl:mb-0 px-2">
                                         <CardStats 
                                             statSubtitle={indicator.data().Indicator} 
                                             statTitle={indicator.data().Value+indicator.data().Unit}

@@ -62,7 +62,7 @@ export default function ProjectCard({ indicators }) {
         </div>
         <div className="grid  grid-cols-3 grid-row-2 gap-1 ">
           {indicators.map((indicator) => (
-            <div className=" h-[45px] bg-gray-300 rounded-md flex flex-nowrap flex-col text-center">
+            <div className=" h-[45px] bg-gray-300 rounded-md flex flex-nowrap flex-col text-center" key={indicator.id}>
               <div className="flex flex-col">
                 <div className="font-Montserrat font-normal  text-regen-lighblue ">
                   {" "}
