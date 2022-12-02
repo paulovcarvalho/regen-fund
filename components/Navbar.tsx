@@ -17,7 +17,7 @@ export default function Navbar(props) {
       <>
         <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-3 py-3 navbar-expand-lg  bg-regen-blue shadow opacity-90 overflow-clip">
           <div className="container mx-auto flex flex-wrap items-center justify-between overflow-clip">
-            <div className="w-full relative px-2 flex items-center justify-between lg:w-auto lg:static lg:block lg:justify-start font-Cormorant text-2xl">
+            <div className="w-full text-white  relative px-2 flex items-center justify-between lg:w-auto lg:static lg:block lg:justify-start font-Cormorant text-2xl">
               <Link href="/">
                   Regenerative Fund
                 
@@ -38,25 +38,25 @@ export default function Navbar(props) {
             >
               <ul className="flex flex-col lg:flex-row list-none mr-auto">
                 <li className= {router.pathname == "/invesdedIn" ? "rounded-full bg-regen-seablue hoverAnimation text-white px-5 py-2 lg:py-2 flex items-center text-xs uppercase font-bold" 
-                    : "flex items-center hoverAnimation text-white px-5 py-2 lg:py-2 flex items-center text-xs uppercase font-bold"}>
+                    : "flex items-center hoverAnimation text-white px-5 py-2 lg:py-2  text-xs uppercase font-bold"}>
                   <Link href="/invesdedIn" >
                       Invested In
                   </Link>
                 </li>
                 <li className= {router.pathname == "/regenerativeProjects" ? "rounded-full bg-regen-seablue hoverAnimation text-white px-5 py-2 lg:py-2 flex items-center text-xs uppercase font-bold" 
-                    : "flex items-center hoverAnimation text-white px-5 py-2 lg:py-2 flex items-center text-xs uppercase font-bold"}>
+                    : "flex items-center hoverAnimation text-white px-5 py-2 lg:py-2  text-xs uppercase font-bold"}>
                   <Link href="/regenerativeProjects" >
                       Regenerative Projects
                   </Link>
                 </li>
                 <li className= {router.pathname == "/artistsCollective" ? "rounded-full bg-regen-seablue hoverAnimation text-white px-5 py-2 lg:py-2 flex items-center text-xs uppercase font-bold" 
-                    : "flex items-center hoverAnimation text-white px-5 py-2 lg:py-2 flex items-center text-xs uppercase font-bold"} >
+                    : "flex items-center hoverAnimation text-white px-5 py-2 lg:py-2 text-xs uppercase font-bold"} >
                   <Link href="/artistsCollective">   
                       Artists Collective 
                   </Link>
                 </li>
                 <li className={router.pathname == "/aboutUs" ? "rounded-full bg-regen-seablue hoverAnimation text-white px-5 py-2 lg:py-2 flex items-center text-xs uppercase font-bold" 
-                    : "flex items-center hoverAnimation text-white px-5 py-2 lg:py-2 flex items-center text-xs uppercase font-bold"} >
+                    : "flex items-center hoverAnimation text-white px-5 py-2 lg:py-2 text-xs uppercase font-bold"} >
                   <Link href="/aboutUs">
                       About Us
                   </Link>
@@ -93,7 +93,7 @@ export default function Navbar(props) {
                     {user  ? (
                               <div className="flex flex-row align-middle hover:mix-blend-luminosity cursor-pointer"
                                   onClick= {() => {
-                                      router.push("/usr/userpage")
+                                      router.push("/usr/userProfile")
                                     }}
                               >
                                   <img

@@ -9,6 +9,7 @@ var errorMessage = ''
 const Login = () => {
 const router = useRouter()
 
+
   const { user, login, googleSignin } = useAuth()
   const [data, setData] = useState({
     email: '',
@@ -17,7 +18,6 @@ const router = useRouter()
 
   const handleLogin = async (e: any) => {
     e.preventDefault()
-
     try {
       await login(data.email, data.password)
     } catch (error) {
@@ -25,18 +25,18 @@ const router = useRouter()
       const errorCode = error.code;
       errorMessage = error.message;
     } 
-    router.push('/usr/userpage')
+    router.push('/usr/userProfile')
   }
 
   const handleGoogleLogin = async (e: any) => {
     e.preventDefault()
     try {
-      await googleSignin()
+      const data = await googleSignin()
     } catch (error) {
       const errorCode = error.code;
       errorMessage = error.message;
     } 
-    router.push('/usr/userpage')
+    router.push('/usr/userProfile')
   }
 
   return (

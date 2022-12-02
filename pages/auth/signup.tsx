@@ -23,7 +23,7 @@ const Signup = () => {
       const errorCode = error.code;
       errorMessage = error.message;
     }
-    router.push('/usr/userpage')
+    router.push('/usr/userProfile')
   }
 
   const handleGoogleLogin = async (e: any) => {
@@ -34,7 +34,7 @@ const Signup = () => {
       const errorCode = error.code;
       errorMessage = error.message;
     } 
-    router.push('/usr/userpage')
+    router.push('/usr/userProfile')
   }
 
   return (
@@ -83,30 +83,11 @@ const Signup = () => {
                 </div>
                 <form  onSubmit={handleSignup}>
                   <div className="relative w-full mb-3">
-                    <label
-                      className="block uppercase text-regen-blue text-xs font-bold mb-2"
-                      htmlFor="grid-password"
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      className="border-0 px-3 py-3 text-regen-blue bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Name"
-                    />
-                  </div>
-
-                  <div className="relative w-full mb-3">
-                    <label
-                      className="block uppercase text-regen-blue text-xs font-bold mb-2"
-                      htmlFor="grid-password"
-                    >
+                    <label className="block uppercase text-regen-blue text-xs font-bold mb-2" htmlFor="grid-password">
                       Email
                     </label>
-                    <input                    
-                      id="txtEmail"
-                      type="email"
-                      className="border-0 px-3 py-3 placeholder:text-gray-300 text-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+
+                    <input id="txtEmail" type="email" className="border-0 px-3 py-3 placeholder:text-gray-300 text-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Type eMail"
                       required
                       onChange={(e: any) =>
